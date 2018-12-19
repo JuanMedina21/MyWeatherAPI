@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(234, 241, 240);
+  }
+
+.container{
+    width: 900px;
+    height: 530px;
+    margin:5vh auto;
+    border-radius: 25px;
+    box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
+  }
+  
+  .header {
+    height: 25%;
+    background-image: linear-gradient(to top, #0ed6a4, #25dcbc, #44e0d1, #64e4e2, #83e8ef);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    text-align: center;
+    position:relative;
+  }
+
+  h1 {
+      text-align: center;
+      font-family: sans-serif;
+      color: gray;
+      font-weight: bold;
+  }
+
+  #temp, #humidity-div {
+    font-family: "Courier New";
+    font-weight: bold;
+    font-size: 60px;
+    color: #fff;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  .city-icon-holder {
+    position:absolute;
+    left: 25%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  #city-name {
+    font-family: "Courier New";
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  #icon {
+    width: 90%;
+    
+  }
+  
+  #main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  
+  .city-icon {
+    height: 75.2%;
+    width: 50%;
+    border-bottom-left-radius: 25px;
+    background-image: linear-gradient(to bottom, #276af1, #0672e4, #1077d5, #2c7bc5, #447eb3);
+    
+  }
+  
+  .temperature {
+    position: absolute;
+    left: 50%;
+    top:0%;
+    height: 37.5%;
+    width: 50.1%;
+    background-image: linear-gradient(to right bottom, #4267b2, #507bc2, #5f8fd1, #70a3e0, #83b8ef);
+  }
+  
+  .humidity {
+    height: 37.7%;
+    width: 50.1%;
+    position:absolute;
+    left:50%;
+    top: 37.5%;
+    border-bottom-right-radius: 25px;
+    background-image: linear-gradient(to left top, #0ec3d6, #2bacba, #3596a0, #3a8087, #3b6b6f);
+  }
+  
+  #search-btn {
+    width: 40px;
+    height:40px;
+    color: gray;
+  }
+  
+  #search-txt {
+    color: gray;
+    height:45px;
+    width: 350px;
+    border-radius: 10px;
+    border-style:none;
+    outline:none;
+    padding-right:1px;
+    padding-left:1px;
+    text-align:center;
+    font-size: 20px;
+    
+  }
+  
+  .search {
+    position: absolute;
+    left: 50%;
+    top:50%;
+    -webkit-transform:translate(-50%,-50%);
+            transform:translate(-50%,-50%);
+  }
